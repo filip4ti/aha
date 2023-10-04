@@ -63,6 +63,20 @@
 </label><br>
 </fieldset>
 </fieldset>
-
+<fieldset>
+    <legend>Procesory</legend>
+<label for="proc"> 
+    AMD Ryzen 7 5700X <br> Liczba rdzeni:8 rdzeni  <br>Cena 809zł <input type="radio" id="proc1" name="proc" required>
+</label><br> <br>
+AMD Ryzen 5 5600 <br> Liczba rdzeni:6 rdzeni <br> Cena 649zł <input type="radio" id="proc2" name="proc" required>
+</label><br>
+</fieldset>
+<fieldset>
+    <legend>Pamięć RAM</legend>
+<label for="ram"> Ilość pamięci ram (w GB): 
+    <input type="range" id="ram" name="ram" required min="4" max="32" step="4" oninput="result.value=ram.value">
+    <output name="result" for="ram">16</output><BR>
+    Cena za (DDR4): 4GB- 85,99 zł, 8GB - 100,00 zł, 16GB - 205,00 zł, 32 GB - 339,00 zł
+</fieldset>
 </body>
 </html>
